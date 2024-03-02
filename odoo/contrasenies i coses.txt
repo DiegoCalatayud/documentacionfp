@@ -1,0 +1,56 @@
+http://castilloinformatica.com/wiki/index.php?title=Odoo
+
+
+master password:579t-srzg-unnk                //dk8f-i4wd-gwtj//
+otras, ubuntu6
+
+dar terminal a odoo
+sudo usermod -s /bin/bash odoo
+
+matar proces
+ps aux | grep odoo [mostra els processos]
+es el que pone /usr/bin/odoo y lo kacemos
+kill -9 476 [476 es el numero del proces /usr/bin/odoo] es el que  te la ruta
+
+
+ssh--copy-id odoo@192.168.8.106
+
+
+
+para crear un modulo
+odoo scaffold school .
+
+
+odoo -d diego -u school
+
+
+...............Eliminar una bbdd...................................................
+desde root su postgres
+psql [para editar]
+DROP DATABASE 'diego';
+
+listar bbdd:
+\c diego [conectar a la bbdd llamada diego]
+SELECT table_name
+FROM information_schema.tables
+WHERE table_name LIKE 'school%'; [muestra todas las tablas que empiezan por school]
+
+SELECT * FROM school_teachers;
+
+....................................................................................
+
+
+
+
+ ssh odoo@localhost -p 2222
+
+
+many to one no depen de res, one to many depen de many to one, y meny to many no fucking idea bro!
+
+base64 per a imatges
+
+fer demo data camps computats y camps calculats, mes camps que no se ara ni com son
+en la carpeta demo está demo.xml y per exeple buildings.xml
+fieeld name=2city2 red="roma.city_demo"><field>
+
+<field name="characteristic_level" widget="progressbar" options="{'min_value': 0, 'max_value': 100}"/>

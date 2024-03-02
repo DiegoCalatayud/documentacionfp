@@ -1,0 +1,22 @@
+INSERT INTO usuario(nombre, apellidos, email, password, fecha_creacion)
+VALUES
+    ('Carlos', 'García López', 'carlosgl@example.com', 'pass1', '2024-01-01'),
+    ('Ana', 'Martínez Ruiz', 'anamr@example.com', 'pass2', '2024-01-02'),
+    ('José', 'Sánchez Fernández', 'josesf@example.com', 'pass3', '2024-01-03'),
+    ('Lucía', 'Rodríguez Pérez', 'luciarp@example.com', 'pass4', '2024-01-04'),
+    ('Manuel', 'Gómez Alonso', 'manuelga@example.com', 'pass5', '2024-01-05'),
+    ('Sara', 'López Morales', 'saralm@example.com', 'pass6', '2024-01-06'),
+    ('Pablo', 'Muñoz Martín', 'pablomm@example.com', 'pass7', '2024-01-07'),
+    ('Laura', 'Díaz Sánchez', 'laurads@example.com', 'pass8', '2024-01-08'),
+    ('David', 'Moreno Jiménez', 'davidmj@example.com', 'pass9', '2024-01-09'),
+    ('Marta', 'Romero Ortiz', 'martaro@example.com', 'pass10', '2024-01-10'),
+    ('Javier', 'Torres Gutiérrez', 'javiertg@example.com', 'pass11', '2024-01-11'),
+    ('Elena', 'Gil Navarro', 'elenagn@example.com', 'pass12', '2024-01-12'),
+    ('Álvaro', 'Vázquez Rubio', 'alvarovr@example.com', 'pass13', '2024-01-13'),
+    ('Beatriz', 'Herrera Molina', 'beatrizhm@example.com', 'pass14', '2024-01-14'),
+    ('Diego', 'Cano Ramírez', 'diegocr@example.com', 'pass15', '2024-01-15'),
+    ('Irene', 'Prieto Castillo', 'irenepc@example.com', 'pass16', '2024-01-16'),
+    ('Oscar', 'Santos Cabrera', 'oscarsc@example.com', 'pass17', '2024-01-17'),
+    ('Patricia', 'Garrido Rey', 'patriciagr@example.com', 'pass18', '2024-01-18'),
+    ('Rubén', 'Cortés Domínguez', 'rubencd@example.com', 'pass19', '2024-01-19'),
+    ('Nerea', 'Campos Soto', 'nereacs@example.com', 'pass20', '2024-01-20');
